@@ -25,8 +25,6 @@ def get_sings(res):
 Point = namedtuple('Point', ['x', 'y'])
 Point.val = lambda p: (p.x, p.y)
 
-Square = namedtuple('Square', ['r_up', 'l_up', 'r_down', 'l_down'])
-
 class Square():
 
     def __init__(self, p0, p1, p2, p3):
